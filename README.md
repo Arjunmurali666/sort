@@ -1,5 +1,7 @@
-# test
-Count the number of IPs in an accesss log
+# Sort the connections from an IP
+##Count the number of IPs in an accesss log
+
+```python
 count = {}
 
 with open('access.log','r') as fh:
@@ -16,3 +18,4 @@ with open('access.log','r') as fh:
 for asd in count:
     if count[asd] >= 20:
         print('{:20} {}'.format(asd,count[asd]))
+```
