@@ -1,5 +1,5 @@
 # Sort the connections from an IP
-## Count the number of connections from IP in the accesss log using dictionary
+## Python - This code is written in python to count the number of connections from each IP from the accesss log using dictionary.
 
 ```python
 count = {}
